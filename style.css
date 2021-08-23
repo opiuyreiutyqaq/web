@@ -1,0 +1,11 @@
+a {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+main{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
