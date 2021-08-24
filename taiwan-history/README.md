@@ -14,3 +14,12 @@
 2. 將 padding 設定在 ```a```: 不只文字, 連外面框框處也會是 anchor tag
     * 問題點: inline element 的上下 padding 即使設定了也不會有效用
     * sol: li 設定為 flex container, a 為 flex item
+
+## RWD
+
+未進行 RWD 優化的檔案位於 noRWD folder
+
+1. 排版: 右半邊圖表在螢幕縮小時可以變成位於左半邊的下面
+    * 利用 flex 設定 flex wrap 與 basic, 當 basic 不滿足時會自動換行
+2. nav bar 縮小時可以應對
+    * media query

@@ -1,15 +1,9 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-}
-
-html{
-    width:100%;
 }
 
 header{
-    width: 100%;
     background-color: #c4c4c4;
     padding: 1rem;
 }
@@ -38,39 +32,23 @@ h1, h3, p {
 
 main {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
 }
 
 span.left{
     padding: 1rem;
-    flex-basis: 60%;
-    flex-grow: 4;
-    flex-shrink: 1;
-    width: 80%;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /* flex-basis: 80%; */
 }
 
 span.right{
     display: flex;
-    flex-basis: 30%;
-    width: 80%;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    flex-grow: 1;
-    flex-shrink: 1;
-}
-
-.left p{
-    padding: 1rem;
 }
 
 span p.right_title{
+    text-align: center;
     font-size: 1.3rem;
     padding-top: 1rem;
 }
@@ -81,20 +59,4 @@ span p.right_txt{
 
 span iframe{
     padding: 1rem;
-}
-
-
-@media screen and (max-width: 625px){
-    html{
-        width:100%;
-    }
-    nav ul{
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-#curve_chart{
-    width: 80%;
-    height: 80%;
 }
